@@ -4,3 +4,4 @@
 
 # Move user to sudo group
 usermod -a -G sudo user
+apt remove -y git
