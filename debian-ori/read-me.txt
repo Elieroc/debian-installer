@@ -1,0 +1,2 @@
+Drop your own Debian iso here or just launch the program will download the official Debian amd64 ISO :
+https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso
