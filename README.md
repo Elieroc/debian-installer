@@ -1,7 +1,7 @@
 # debian-installer
 A bash script to automate an Debian installation and more
 
-# Requierement
+# Prérequis
 L'outil est fait exclusivement pour Linux. Il vous faut 3 outils basics souvent installés par défaut sur les systèmes :
 sudo, wget et isomkfs
 
