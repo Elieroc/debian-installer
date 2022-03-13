@@ -7,7 +7,7 @@
 
 # Requirements : sudo, wget, isomkfs
 
-DEBIAN_DOWNLOAD_LINK="https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso"
+DEBIAN_DOWNLOAD_LINK="https://cdimage.debian.org/cdimage/archive/10.11.0/amd64/iso-cd/debian-10.11.0-amd64-netinst.iso"
 DEBIAN_TEMPLATE="base"
 DEBIAN_ORI_ISO_DIR="debian-ori"
 DEBIAN_ORI_ISO_NAME=$( cd $DEBIAN_ORI_ISO_DIR&&ls debian-*&&cd .. )
