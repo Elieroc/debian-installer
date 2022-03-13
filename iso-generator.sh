@@ -32,6 +32,6 @@ sudo cp resources/* ${WORKSPACE}/isolinux/
 mkdir ${WORKSPACE}/ps
 sudo cp ${DEBIAN_TEMPLATE}/${DEBIAN_TEMPLATE}.cfg ${WORKSPACE}/ps/
 cd $WORKSPACE
-sudo mkisofs -o ../${DEBIAN_MODDED_DIR}/${DEBIAN_MODDED_ISO_NAME} -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J -r $PWD && cd ..
+sudo mkisofs -o ../${DEBIAN_MODDED_DIR}/${DEBIAN_MODDED_ISO_NAME} -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J -r . $PWD && cd ..
 sudo chown ${CURRENT_USER}:${CURRENT_USER} ${DEBIAN_MODDED_DIR}/${DEBIAN_MODDED_ISO_NAME}
 sudo rm -rf tmp/
